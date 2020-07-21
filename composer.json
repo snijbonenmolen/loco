@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jubairmizan/random-quotes-generator": "^1.0"
+    }
+}

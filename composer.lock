@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "223f722d8732e815fd778b0b0db79769",
+    "packages": [
+        {
+            "name": "jubairmizan/random-quotes-generator",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jubairmizan/PHP-Random-Quotes-Generator.git",
+                "reference": "099cf937209049b4ce89ee48f4d75c46c6726081"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jubairmizan/PHP-Random-Quotes-Generator/zipball/099cf937209049b4ce89ee48f4d75c46c6726081",
+                "reference": "099cf937209049b4ce89ee48f4d75c46c6726081",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RandomQuotes\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jubair Mizan",
+                    "email": "jubairmizan@gmail.com"
+                }
+            ],
+            "description": "This library will generate a random quote for you",
+            "time": "2018-12-13T12:07:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
