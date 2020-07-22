@@ -1,9 +1,10 @@
 #!/bin/bash
 
 releasename=$1
+webroot=$2
 
-echo "Creating folder for release $releasename"
+echo "Linking $releasename to $webroot"
 
-mkdir "/var/www/releases/$releasename"
-
-echo "$releasename, release created" >> "/var/www/common/releases.log"
+ln -s /var/www/media "/var/www/releases/$releasename/media"
+ln -s /var/www/common/env.php "/var/www/releases/$releasename/env.php"
+ln -s "/var/www/releases/$releasename" $webroot
