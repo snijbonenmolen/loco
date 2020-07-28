@@ -19,10 +19,14 @@ if(file_exists('media/facepalm.jpg')) {
 
 echo $opentag;
 
-if(file_exists('env.php')) {
-    $env = include 'env.php';
+if(file_exists('settings.php')) {
+    $env = include 'settings.php';
 } else {
-    exit('Not available');
+    if (file_exists('env.php')) {
+        $env = include 'env.php';
+    } else {
+        exit('Not available');
+    }
 }
 
 $apiKey = $env['api_key'];
